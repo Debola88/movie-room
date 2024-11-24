@@ -3,6 +3,8 @@ import Navbar from "./components/NavBar";
 import background from "@/app/assets/SubContainer.png";
 import Button from "./components/Button";
 import Category from "./components/homepage/Category";
+import Devices from "./components/homepage/Devices";
+import Faq from "./components/homepage/Faq";
 
 export default function Home() {
   return (
@@ -35,6 +37,8 @@ export default function Home() {
           <Button>Start Watching Now</Button>
         </div>
         <Category />
+        <Devices />
+        <Faq />
       </div>
     </div>
   );
