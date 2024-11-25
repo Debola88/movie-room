@@ -18,7 +18,7 @@ const CtaSection = () => {
             className="w-full max-lg:min-h-[300px] h-auto object-cover rounded-lg"
           />
         </div>
-        <div className="absolute top-0 left-0 md:pt-5 z-10 flex max-lg:flex-col justify-between gap-4 w-full p-16 md:pt-24">
+        <div className="absolute top-0 left-0 z-10 flex max-lg:flex-col justify-between gap-4 w-full p-16 md:pt-24">
           <div className=" max-lg:text-center">
             <h2 className="text-white font-bold text-3xl max-md:text-2xl">
               Start your free trial today!
