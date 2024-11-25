@@ -10,7 +10,7 @@ import { BsHeadsetVr } from "react-icons/bs";
 const Devices = () => {
   return (
     <div className="container px-5 md:px-10 mx-auto mt-20">
-      <h2 className="text-white font-bold text-3xl text-left">
+      <h2 className="text-white font-bold text-3xl max-md:text-2xl text-left">
         We Provide you streaming experience across various devices.
       </h2>
       <p className="text-sm text-[#999999]">

@@ -50,7 +50,7 @@ export default function Faq() {
     <div className="container px-5 md:px-10 mx-auto mt-20">
       <div className="flex max-md:flex-col justify-between space-y-4">
         <div>
-          <h2 className="text-3xl text-white font-bold">
+          <h2 className="text-3xl max-md:text-2xl text-white font-bold">
             Frequently Asked Questions
           </h2>
           <p className="text-sm text-[#999999]">
@@ -68,7 +68,7 @@ export default function Faq() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-gradient-to-tr from-[#0F0F0F]/100 via-[#0F0F0F] to-[#E50000]/10 to p-4 rounded-lg shadow-md"
+              className="bg-[#0F0F0F] p-4 rounded-lg shadow-md"
             >
               <div
                 className="flex justify-between items-center cursor-pointer"

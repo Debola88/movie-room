@@ -5,6 +5,8 @@ import Button from "./components/Button";
 import Category from "./components/homepage/Category";
 import Devices from "./components/homepage/Devices";
 import Faq from "./components/homepage/Faq";
+import PlanPackages from "./components/homepage/PlanPackages";
+import CtaSection from "./components/homepage/CtaSection";
 
 export default function Home() {
   return (
@@ -39,6 +41,8 @@ export default function Home() {
         <Category />
         <Devices />
         <Faq />
+        <PlanPackages />
+        <CtaSection />
       </div>
     </div>
   );

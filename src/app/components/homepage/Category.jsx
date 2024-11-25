@@ -42,7 +42,7 @@ const Category = () => {
     <div className="container px-5 md:px-10 mx-auto mt-20">
       <div className="flex max-md:flex-col justify-between items-center">
         <div>
-          <h2 className="text-white font-bold text-3xl text-left">
+          <h2 className="text-white font-bold text-3xl max-md:text-2xl text-left">
             Explore our wide variety of categories
           </h2>
           <p className="text-[#999999] text-sm">
