@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <div className="relative">
         <div className="h-screen">
-          <Image src={background} alt="" className="h-screen object-cover" />
+          <Image src={background} alt="" className="h-screen w-full object-cover" />
         </div>
         <div className="absolute top-0 left-0 md:pt-5 w-full z-10">
           <Navbar />
