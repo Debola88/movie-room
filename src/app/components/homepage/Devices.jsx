@@ -15,7 +15,7 @@ const Devices = () => {
       </h2>
       <p className="text-sm text-[#999999]">
         With StreamVibe, you can enjoy your favorite movies and TV shows
-        anytime, anywhere. Our platform is designed to be compatible with a wide
+        anytime, anwhere. Our platform is designed to be compatible with a wide
         range of devices, ensuring that you never miss a moment of
         entertainment.
       </p>
