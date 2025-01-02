@@ -26,17 +26,21 @@ const Category = () => {
   };
 
   useEffect(() => {
+    const slider = sliderRef.current;
     const handleScroll = () => {
-      if (sliderRef.current) {
-        const { scrollLeft, scrollWidth, clientWidth } = sliderRef.current;
+      if (slider) {
+        const { scrollLeft, scrollWidth, clientWidth } = slider;
         const maxScrollLeft = scrollWidth - clientWidth;
         setScrollProgress((scrollLeft / maxScrollLeft) * 100);
       }
     };
 
-    sliderRef.current.addEventListener("scroll", handleScroll);
-    return () => sliderRef.current.removeEventListener("scroll", handleScroll);
+    if (slider) {
+      slider.addEventListener("scroll", handleScroll);
+      return () => slider.removeEventListener("scroll", handleScroll);
+    }
   }, []);
+
 
   return (
     <div className="container px-5 md:px-10 mx-auto mt-20">
