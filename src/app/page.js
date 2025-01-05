@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./components/NavBar";
 import background from "@/app/assets/SubContainer.png";
 import Button from "./components/Button";
@@ -7,6 +6,7 @@ import Devices from "./components/homepage/Devices";
 import Faq from "./components/homepage/Faq";
 import PlanPackages from "./components/homepage/PlanPackages";
 import CtaSection from "./components/homepage/CtaSection";
+
 
 export default function Home() {
   return (
